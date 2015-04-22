@@ -22,6 +22,15 @@ The following set of requirement describe the currently understood scope of the 
 | profile     | trainer can include link Instagram account                         | v1      | high     |
 | profile     | trainer can include link to YouTube account                        | v1      | high     |
 | profile     | trainer can fill out free form text field about themselves         | v1      | high     |
+| profile     | member can fill out a profile                                      | v2      | high     |
+| profile     | member can import profile from Facebook                            | v2      | low      |
+| profile     | member can import profile from LinkedIn                            | v2      | low      |
+| profile     | member can attach images to profile                                | v2      | high     |
+| profile     | member can include link Facebook account                           | v2      | high     |
+| profile     | member can include link Instagram account                          | v2      | high     |
+| profile     | member can include link to YouTube account                         | v2      | high     |
+| profile     | member can fill out free form text field about themselves          | v2      | high     |
+| profile     | member can track progress by taking periodic pictures              | v3      | high     |
 | contact     | member can contact trainer for session                             | v1      | high     |
 | contact     | member can initiate contact to trainer for session                 | v1      | high     |
 | contact     | member can not initiate contact to trainer for session             | v1      | high     |
@@ -29,7 +38,14 @@ The following set of requirement describe the currently understood scope of the 
 | video       | trainer can specify muscle group tags for video                    | v1      | low      |
 | video       | trainer can specify calories for video                             | v1      | low      |
 | video       | trainer can specify exercise type                                  | v1      | high     |
+| video       | trainer can specify required equipment                             | v1      | high     |
+| video       | member can search for video based on required equipment            | v1      | high     |
+| video       | trainer can specify fitness level                                  | v1      | high     |
+| video       | member can search for video based on fitness level                 | v1      | high     |
+| video       | trainer can specify workout goal (fat, muscle, etc)                | v1      | high     |
+| video       | member can search for video based on workout goal                  | v1      | high     |
 | video       | member can search for video based on muscle group                  | v1      | low      |
+| video       | user can see image of muscle groups based on images                | v1      | low      |
 | video       | member can search for video based on calories                      | v1      | low      |
 | video       | member can search for video based on exercise type                 | v1      | high     |
 | video       | member can rate video quaity                                       | v1      | high     |
@@ -52,6 +68,7 @@ The following set of requirement describe the currently understood scope of the 
 | referral    | allow user to customize referral code                              | v2      | low      |
 | referral    | referral code field during sign up                                 | v1      | high     |
 | referral    | referral code automatically redirects to sign up and auto fill     | v2      | low      |
+| referral    | link to amazon products when trying to buy equipment               | v2      | low      |
 | qr code     | scanned qr code takes user to video page                           | v1      | high     |
 | qr code     | scanned qr code requires logged in user                            | v1      | low      |
 | qr code     | allow site to scan qr code                                         | v1      | low      |
@@ -62,33 +79,8 @@ The following set of requirement describe the currently understood scope of the 
 | payment     | accept american express as payment method                          | v1      | high     |
 | payment     | accept bitcoin as payment method                                   | v2      | low      |
 | payment     | accept Amazon as payment method                                    | v2      | high     |
-| 
-
-
-
-| Check Red Flags    | Ability to check red flags via question check                               | v1      | High     |
-| Check Red Flags    | Red flags saved locally for offline use                                     | v1      | High     |
-| Patient Screening  | Ability to check patient info questions                                     | v1      | High     |
-| Patient Screening  | Ability to perform probability analysis based on questions                  | v1      | High     |
-| Patient Screening  | Actively inform app user of possible victim status                          | v1      | High     |
-| Patient Screening  | Customize screening questions from dashboard                                | v2      | Medium   |
-| Patient Screening  | Save patient info answers to database for future retrieval                  | v1      | Medium   |
-| Patient Screening  | Save GPS location with answers to database for future retrieval             | v1      | Medium   |
-| Patient Screening  | Allow exporting of data into excel for analysis via integration             | v1      | Low      |
-| Triage             | Protocols for addressing situation when positive analysis is encountered    | v1      | High     |
-| Triage             | Resource list for helping victim when positive analysis is encountered      | v1      | High     |
-| Triage             | Protocols based on location                                                 | v2      | Medium   |
-| Triage             | Resource list based on location                                             | v2      | Medium   |
-| Meta-data          | Analytics on app usage                                                      | v1      | Low      |
-| Integration        | Integrate screening tool info from EMR                                      | v2      | Medium   |
-| Integration        | Generic integration hook to send data to analytics vendor                   | v2      | High     |
-| Push Notification  | Send push notification to user for alerts                                   | v1      | Medium   |
-| Call Hotline       | Automatically call hotline number when button clicked                       | v1      | High     |
-| Call Hotline       | Call hotline number based on regional location from GPS                     | v2      | High     |
-| Text Hotline       | Text hotline service when button is clicked                                 | v1      | Medium   |
-| Call 911           | Call 911 button which user has to confirm action to prevent accidental push | v1      | High     |
-| Polaris Conection  | Direct user to online National Human Trafficking Referral Directory         | v1      | Medium   |
-| Polaris Connection | Integrate call button to dial regional number via GPS location              | v2      | Medium   |
+| customize   | allow subdomains such as for Proctor Gamble                        | v2      | low      |
+| customize   | allow subdomains to have different graphics/branding               | v2      | low      |
 
 
 ### Legend
@@ -110,5 +102,5 @@ The relative importance of the requirement to the app as a whole.
 A requirement with v1 low priority means it would be implemented in v1 (typically mvp) but would have a low importance. This could be used when a requirement would be present in the mvp but it is more of a nice to have vs an absolute necessity.
 A requirements with v3 high priority means it would be implemented in v3 but would be very important. This could be used when a requirement would be present in the 3rd version but would be extremely important that it is implemented. This can be for features only necessary when an app has more users or in a more mature state.
 
-#### Meeting on Skype
-- Remove clickable prototype
+#### Todo:
+- [ ] Check with Ross and Jay about current scope
