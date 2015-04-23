@@ -9,7 +9,7 @@ The following set of requirement describe the currently understood scope of the 
 | login       | user can sign up using email address                               | v1      | high     |
 | login       | user can sign up using Facebook                                    | v1      | high     |
 | login       | user can sign up using Google+                                     | v1      | high     |
-| login       | user can sign up using Instagram                                   | v2      | low      |
+| login       | user can sign up using Instagram                                   | v1      | low      |
 | login       | user can sign up using LinkedIn                                    | v2      | low      |
 | login       | user can sign up using Twitter                                     | v1      | high     |
 | permissions | unique permissions for gym trainer                                 | v1      | high     |
@@ -22,6 +22,11 @@ The following set of requirement describe the currently understood scope of the 
 | profile     | trainer can include link Instagram account                         | v1      | high     |
 | profile     | trainer can include link to YouTube account                        | v1      | high     |
 | profile     | trainer can fill out free form text field about themselves         | v1      | high     |
+| profile     | trainer can attach 3 hashtags                                      | v1      | low      |
+| profile     | trainer can include the style of training freeform field           | v1      | high     |
+| profile     | trainer can include 3 styles of training                           | v1      | high     |
+| profile     | trainer profile page includes all videos they have uploaded        | v1      | high     |
+| profile     | trainer can include more styles of training                        | v3      | high     |
 | profile     | member can fill out a profile                                      | v2      | high     |
 | profile     | member can import profile from Facebook                            | v2      | low      |
 | profile     | member can import profile from LinkedIn                            | v2      | low      |
@@ -31,9 +36,17 @@ The following set of requirement describe the currently understood scope of the 
 | profile     | member can include link to YouTube account                         | v2      | high     |
 | profile     | member can fill out free form text field about themselves          | v2      | high     |
 | profile     | member can track progress by taking periodic pictures              | v3      | high     |
+| progress    | member pushes button to show completion of the video               | v2      | low      |
+| progress    | member profile page includes progress and completion tracking      | v2      | low      |
+| progress    | member profile page report charts progress                         | v2      | low      |
+| progress    | point system and gamification                                      | v2      | low      |
 | contact     | member can contact trainer for session                             | v1      | high     |
 | contact     | member can initiate contact to trainer for session                 | v1      | high     |
-| contact     | member can not initiate contact to trainer for session             | v1      | high     |
+| contact     | trainer can not initiate contact to member for session             | v1      | high     |
+| group-video | add requirements for live video*****                               | v1      | high     |
+| group-video | can trainers see members as they work out                          | v1      | high     |
+| group-video | can members see members as they work out                           | v1      | high     |
+| group-video | max members on the trainer video is currently 6                    | v1      | high     |
 | video       | trainer can add YouTube video recording they have made using url   | v1      | high     |
 | video       | trainer can specify muscle group tags for video                    | v1      | low      |
 | video       | trainer can specify calories for video                             | v1      | low      |
