@@ -1,6 +1,7 @@
 ## Requirements for a Quote
 
 When sending a quote the following items are required to be included in the quote in order to accepted and taken into consideration by us.
+
 1. Describe the tech stack you plan on using for the front end.
 2. Describe the tech stack you plan on using for the back end.
 3. Describe the frameworks you plan on using for the front end.
