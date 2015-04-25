@@ -1,5 +1,10 @@
-## High Level Requirements
-### Codename: "RhinoBoss"
+## High Level Requirements. Codename: "RhinoBoss"
+### Summary and Narrative
+Rhino Boss is a platform that connects virtual trainers who want to train people in exercises to virtual members who want to learn new exercises. The Rhino Boss platform allows trainers log into the main website and build their profile. Here the trainer can upload a training video from their computer at the push of the button. Upon uploading the video the trainer can pick different properties and attributes of the video from a set of drop down that can categorize the video. An example of this is a trainer can pick the muscle groups the video targets picking something such as "arms" or "biceps". The categories the trainer can pick from are added via an admin panel that only select admin users have access to. The trainer can also schedule live workout sessions via a simple calendar tool. When scheduling a live stream the trainer has the ability to set the same options as when he uploaded the non-live video. The live training sessions allows a trainer to live stream video from his webcam to multiple members who are online and watching so that the members may follow along with the trainer.
+The members are able to access the videos on the website once they sign up for a subscription. The user can pick a trial subscription where their payment information is billed only after the trial period is up. Once the user has purchased a subscription they are able to access the features of the website. Upon login the users are able to search for videos from various trainers by picking and choose various filters. Once a video is chosen it takes them to the page which shows the embedded video along with any pertinent information on the video. The user can favorite a video, rate a video, or mark a video as completed. A video can be marked completed multiple times as a user may have watched and "completed" the video multiple times in the same week. The member can click on the trainer of the video and see the profile page of the trainer. The member can see a schedule of upcoming live stream videos which can also be filtered on various search terms. Click a link to these scheduled videos will allow a member to participate in the exercise with the trainer at the scheduled time. Once entered in the live stream video session, A member can choose to enable or disable their camera to prevent the trainer from seeing them. The trainer has a view which shows all the video of those who have allowed their video to be broadcast.
+A member can connect other accounts (Facebook), update their username and password, fine referral codes and update their billing information from their user settings. Additionally, members can contact and message trainers by clicking on a "message" button in the profile of the trainer.
+
+### Detailed Requirements
 The following set of requirement describe the currently understood scope of the application. Specific requirements may have a scope that would require its implementation in a future version. Those are called out where applicable. Only v1 is applicable for the first scope. Higher version numbers are there to allow us to know the potential next steps you are planning on taking. This allows us to make design decisions to support your future versions with minimum rework.
 
 | Domain      | Description                                                         | Version | Priority |
@@ -57,6 +62,7 @@ The following set of requirement describe the currently understood scope of the 
 | video       | trainer can specify exercise type (yoga, football, mma)             | v1      | high     |
 | video       | trainer can specify required equipment                              | v1      | high     |
 | video       | member can search for video based on required equipment             | v1      | high     |
+| video       | member can save a video into a favorite list                        | v1      | high     |
 | video       | trainer can specify fitness level                                   | v1      | high     |
 | video       | member can search for video based on fitness level                  | v1      | high     |
 | video       | trainer can specify workout goal (fat, muscle, etc)                 | v1      | high     |
@@ -99,6 +105,8 @@ The following set of requirement describe the currently understood scope of the 
 | payment     | accept Amazon as payment method                                     | v2      | high     |
 | customize   | allow subdomains such as for Proctor Gamble                         | v2      | low      |
 | customize   | allow subdomains to have different graphics/branding                | v2      | low      |
+| admin panel | allows admins to change any properties for the videos upload        | v1      | high     |
+| admin panel | allows admins to remove vidoe content any trainer has uploaded      | v1      | high     |
 
 
 ### Legend
