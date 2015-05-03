@@ -126,9 +126,6 @@ a few months later after discussing a scope change or amendment.
 #### Priority:
 The relative importance of the requirement to the app as a whole.
 
-#### Examples:
-A requirement with v1 low priority means it would be implemented in v1 (typically mvp) but would have a low importance. This could be used when a requirement would be present in the mvp but it is more of a nice to have vs an absolute necessity.
-A requirements with v3 high priority means it would be implemented in v3 but would be very important. This could be used when a requirement would be present in the 3rd version but would be extremely important that it is implemented. This can be for features only necessary when an app has more users or in a more mature state.
 
 #### Image Assets
 ##### Dashboard
