@@ -18,7 +18,7 @@ The following set of requirement describe the currently understood scope of the 
 | login       | user can sign up using Instagram                                                                   | v1      |
 | login       | user can sign up using LinkedIn                                                                    | v2      |
 | login       | user can sign up using Twitter                                                                     | v1      |
-| permissions | unique permissions for gym trainer                                                                 | v1      |
+| permissions | unique permissions for gym trainer (ex. can upload video)                                          | v1      |
 | permissions | unique permissions for gym member                                                                  | v1      |
 | profile     | trainer can fill out a profile                                                                     | v1      |
 | profile     | trainer can import profile from Facebook                                                           | v1      |
@@ -72,11 +72,12 @@ The following set of requirement describe the currently understood scope of the 
 | video       | user can see image of muscle groups based on images                                                | v1      |
 | video       | member can search for video based on calories                                                      | v1      |
 | video       | member can search for video based on exercise type                                                 | v1      |
-| video       | member can rate video quaity                                                                       | v1      |
-| video       | member can see video quality                                                                       | v2      |
-| video       | member can specify issue with video when rating is under threshold                                 | v1      |
-| video       | member can search for video based on time uploaded                                                 | v2      |
-| video       | member can search for video based on workout time                                                  | v1      |
+| video       | member can rate video quaity (out of 5 stars)                                                      | v1      |
+| video       | member can see video quality rating                                                                | v2      |
+| video       | member has countdown on video page that shows time remaining (large text)                          | v1      |
+| video       | member can specify issue with video when rating is under threshold (under 4)                       | v1      |
+| video       | member can search for video based on date uploaded                                                 | v2      |
+| video       | member can search for video based on video length                                                  | v1      |
 | video       | member can share video on Facebook                                                                 | v2      |
 | tracking    | track users through pages                                                                          | v1      |
 | tracking    | perform automatic analytics of users on pages                                                      | v1      |
@@ -90,8 +91,9 @@ The following set of requirement describe the currently understood scope of the 
 | referral    | track referral code for user sign up                                                               | v1      |
 | referral    | analytics on referral code                                                                         | v2      |
 | referral    | raw data on referral code                                                                          | v1      |
-| referral    | allow user to customize referral code                                                              | v2      |
+| referral    | allow user to customize referral code                                                              | v1      |
 | referral    | referral code field during sign up                                                                 | v1      |
+| referral    | referral code field during any purchase                                                            | v1      |
 | referral    | referral code automatically redirects to sign up and auto fill                                     | v2      |
 | referral    | link to amazon products when trying to buy equipment                                               | v2      |
 | referral    | dashboard which allows users to see how many other users have used their referral code [Dashboard] | v1      |
@@ -107,7 +109,7 @@ The following set of requirement describe the currently understood scope of the 
 | payment     | accept Amazon as payment method                                                                    | v2      |
 | customize   | allow subdomains such as for Proctor Gamble                                                        | v2      |
 | customize   | allow subdomains to have different graphics/branding                                               | v2      |
-| admin panel | allows admins to change any properties for the videos upload                                       | v1      |
+| admin panel | allows admins to change any properties(calories, muslce group) for the videos upload               | v1      |
 | admin panel | allows admins to remove vidoe content any trainer has uploaded                                     | v1      |
 
 
@@ -127,9 +129,8 @@ a few months later after discussing a scope change or amendment.
 The relative importance of the requirement to the app as a whole.
 
 
-#### Image Assets
-##### Dashboard
-
+### Image Assets
+#### Dashboard
 ![dashboard](images/Trainer_Dashboard.png "Dashboard Example 1")
 
 ![dashboard](images/Trainer_Dashboard2.png "Dashboard Example 2")
