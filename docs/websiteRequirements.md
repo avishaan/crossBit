@@ -111,6 +111,11 @@ The following set of requirement describe the currently understood scope of the 
 | customize   | allow subdomains to have different graphics/branding                                               | v2      |
 | admin panel | allows admins to change any properties(calories, muslce group) for the videos upload               | v1      |
 | admin panel | allows admins to remove vidoe content any trainer has uploaded                                     | v1      |
+| shop        | allows user to purchase physical items from a small shop (5-10 items)                              | v1      |
+| shop        | allows user to attach referral code to purchases on site                                           | v1      |
+| shop        | tracks referrals codes and updates user dashboard as referral codes are used                       | v1      |
+| dashboard   | allows user to see graph of how many people have used referral code                                | v1      |
+| dashboard   | allows user to see graph of where the referral came from (fb, twitter, instagram)                  | v1      |
 
 
 ### Legend
