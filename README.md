@@ -1,6 +1,6 @@
 ## What is this?
 
-This page is meant to answer any questions you may have before submitting quotes for project: crossBit. Any quotes you submit should be through the initial system. Before asking questions please make sure to check the issues page first.
+This page is meant to answer any questions you may have before submitting quotes for project: crossBit. Any quotes you submit should be through the initial system where you saw the project. Before asking questions please make sure to check the issues page first.
 
 - This is a GitHub page that will be used to answer any questions you have on the business requirements that are specified [here](./docs/websiteRequirements.md.pdf).
 - If you have any questions on the business requirements or scope please post your questions in the GitHub issue section and I will answer your questions ASAP.
