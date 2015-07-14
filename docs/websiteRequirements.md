@@ -50,8 +50,10 @@ The following set of requirement describe the currently understood scope of the 
 | contact     | member can initiate contact to trainer for session                                                 | v1      |
 | contact     | trainer can not initiate contact to member for session                                             | v1      |
 | group-video | trainers can broadcast live video to members who can join and watch                                | v1      |
+| group-video | trainer can invite member to one-on-one private training session                                   | v1      |
 | group-video | members can see username and optional video of member                                              | v1      |
-| group-video | members can't see other members                                                                    | v1      |
+| group-video | members can choose to hide or share their own video with trainer                                   | v1      |
+| group-video | members can choose to hide or share their own video with other members                             | v1      |
 | group-video | trainers can add live video broadcast to schedule                                                  | v1      |
 | group-video | members can see schedule of upcoming live videos                                                   | v1      |
 | group-video | max members on the trainer video is currently 6                                                    | v1      |
