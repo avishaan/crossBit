@@ -49,6 +49,8 @@ The following set of requirement describe the currently understood scope of the 
 | contact     | member can contact trainer for session                                                             | v1      |
 | contact     | member can initiate contact to trainer for session                                                 | v1      |
 | contact     | trainer can not initiate contact to member for session                                             | v1      |
+| reminder    | email reminder for training session that comes up                                                  | v1      |
+| reminder    | email reminder for training session for favorite trainer                                           | v1      |
 | group-video | trainers can broadcast live video to members who can join and watch                                | v1      |
 | group-video | trainer can invite member to one-on-one private training session                                   | v1      |
 | group-video | members can see username and optional video of member                                              | v1      |
@@ -57,6 +59,8 @@ The following set of requirement describe the currently understood scope of the 
 | group-video | trainers can add live video broadcast to schedule                                                  | v1      |
 | group-video | members can see schedule of upcoming live videos                                                   | v1      |
 | group-video | max members on the trainer video is currently 6                                                    | v1      |
+| group-video | record live training video into archive                                                            | v1      |
+| group-video | delete/manage recorded live training video                                                         | v1      |
 | video       | trainer can add YouTube video recording they have made using url                                   | v2      |
 | video       | trainer can add YouTube video via embedded button to RB account                                    | v2      |
 | video       | trainer can directly upload video via embedded button on page                                      | v1      |
