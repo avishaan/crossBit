@@ -54,20 +54,23 @@ The following set of requirement describe the currently understood scope of the 
 | reminder    | email reminder for training session that comes up (1 hr reminder)                    | v1      |
 | reminder    | email reminder for upcoming training session is customizeable by the trainer         | v1      |
 | reminder    | email reminder for training session for favorite trainer                             | v1      |
-| group-video | trainers can broadcast live video to members who can join and watch                  | v1      |
-| group-video | trainers can schedule a video                                                        | v1      |
-| group-video | trainers can fill in custom information about the video session                      | v1      |
-| group-video | trainer can schedule member to one-on-one private training session                   | v1      |
-| group-video | members can see username and optional video of member                                | v1      |
-| group-video | members can choose to hide or share their own video with trainer                     | v1      |
-| group-video | members can choose to hide or share their own video with other members               | v1      |
-| group-video | trainers can add live video broadcast to schedule                                    | v1      |
-| group-video | max members on the trainer video is currently 6                                      | v1      |
-| group-video | record live training video into archive                                              | v1      |
-| group-video | delete/manage recorded live training video                                           | v1      |
+| live-video  | trainers can broadcast live video to members who can join and watch                  | v1      |
+| live-video  | trainer can specify the cost to view live video                                      | v1      |
+| live-video  | trainers can schedule a video (one to many)                                          | v1      |
+| live-video  | trainers can schedule a video (one to group)                                         | v1      |
+| live-video  | trainers can fill in custom information about the video session                      | v1      |
+| live-video  | trainer can schedule member to one-on-one private training session                   | v1      |
+| live-video  | members can see username and optional video of member                                | v1      |
+| live-video  | members can choose to hide or share their own video with trainer                     | v1      |
+| live-video  | members can choose to hide or share their own video with other members               | v1      |
+| live-video  | trainers can add live video broadcast to schedule                                    | v1      |
+| live-video  | max members on the trainer video is currently 6                                      | v1      |
+| live-video  | record live training video into archive under trainer account                        | v1      |
+| live-video  | delete/manage recorded live training video                                           | v1      |
 | video       | trainer can add existing YouTube video recording they have made using url            | v2      |
 | video       | trainer can add existing YouTube video via embedded button to RB account             | v1      |
 | video       | trainer can directly upload video via embedded button on page                        | v1      |
+| video       | trainer can specify the cost to view individual recorded view                        | v1      |
 | video       | trainer can specify muscle group tags for video                                      | v1      |
 | video       | trainer can specify calories for video                                               | v1      |
 | video       | trainer can specify exercise type (yoga, football, mma)                              | v1      |
@@ -91,6 +94,7 @@ The following set of requirement describe the currently understood scope of the 
 | video       | member can search for video based on date uploaded                                   | v2      |
 | video       | member can search for video based on video length                                    | v2      |
 | video       | member can share workout session on Facebook                                         | v1      |
+| messaging   | users can message each other                                                         | v1      |
 | tracking    | track users through pages                                                            | v1      |
 | tracking    | perform automatic analytics of users on pages                                        | v1      |
 | tracking    | review data of users through pages (basic analytics)                                 | v1      |
@@ -120,6 +124,9 @@ The following set of requirement describe the currently understood scope of the 
 | payment     | accept american express as payment method                                            | v1      |
 | payment     | accept bitcoin as payment method                                                     | v2      |
 | payment     | accept Amazon as payment method                                                      | v2      |
+| payment     | trainer can set monthly price for one-many videos and recorded videos                | v1      |
+| payment     | trainer can set individual price for one-many video                                  | v1      |
+| payment     | trainer can set individual price for recorded video                                  | v1      |
 | customize   | allow subdomains such as for Proctor Gamble                                          | v2      |
 | customize   | allow subdomains to have different graphics/branding                                 | v2      |
 | admin panel | allows admins to change any properties(calories, muscle group) for the videos upload | v1      |
