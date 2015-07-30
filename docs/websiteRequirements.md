@@ -10,29 +10,31 @@ The following set of requirement describe the currently understood scope of the 
 
 | Domain      | Description                                                                          | Version | MVP |
 | ---         | ---                                                                                  | ---     | --- |
-| login       | ability for virtual gym member login                                                 | v1      |  *  |
-| login       | ability for virtual gym trainer to login                                             | v1      |     |
+| login       | ability for virtual gym member login                                                 | v1      | x   |
+| login       | ability for virtual gym trainer to login                                             | v1      | x   |
 | login       | member asked to sign up right before playing video, not at beginning                 | v1      |     |
-| login       | user can sign up using email address                                                 | v1      |     |
-| login       | user can sign up using Facebook                                                      | v1      |     |
+| login       | user can sign up using email address                                                 | v1      | x   |
+| login       | user can sign up using Facebook                                                      | v1      | x   |
 | login       | user can sign up using Google+                                                       | v1      |     |
 | login       | user can sign up using Instagram                                                     | v1      |     |
 | login       | user can sign up using LinkedIn                                                      | v2      |     |
 | login       | user can sign up using Twitter                                                       | v1      |     |
-| permissions | unique permissions for gym trainer (ex. can upload video)                            | v1      |     |
-| permissions | unique permissions for gym member                                                    | v1      |     |
-| profile     | trainer can fill out a profile                                                       | v1      |     |
+| permissions | unique permissions for gym trainer (ex. can upload video)                            | v1      | x   |
+| permissions | unique permissions for gym member                                                    | v1      | x   |
+| profile     | trainer can fill out a profile                                                       | v1      | x   |
 | profile     | trainer can import profile from Facebook                                             | v2      |     |
 | profile     | trainer can import profile from LinkedIn                                             | v2      |     |
 | profile     | trainer can attach images to profile                                                 | v1      |     |
 | profile     | trainer can include link Facebook account                                            | v1      |     |
 | profile     | trainer can include link Instagram account                                           | v1      |     |
 | profile     | trainer's Instagram account automatically populates onto their profile page          | v1      |     |
-| profile     | trainer can fill out free form text field about themselves                           | v1      |     |
+| profile     | trainer can fill out free form text field about themselves                           | v1      | x   |
 | profile     | trainer can attach 5 hashtags                                                        | v1      |     |
-| profile     | upcoming trainer scheduled sessions                                                  | v1      |     |
+| profile     | upcoming trainer scheduled sessions                                                  | v1      | x   |
 | profile     | trainer can upload 'intro video' talking about themselves                            | v1      |     |
 | profile     | trainer profile page includes all videos they have uploaded/recorded                 | v1      |     |
+| profile     | member can fill out credit card information                                          | v1      | x   |
+| profile     | member can manage subscriptions                                                      | v1      | x   |
 | profile     | member can fill out a profile                                                        | v2      |     |
 | profile     | member can import profile from Facebook                                              | v2      |     |
 | profile     | member can import profile from LinkedIn                                              | v2      |     |
@@ -46,27 +48,27 @@ The following set of requirement describe the currently understood scope of the 
 | progress    | member profile page includes progress and completion tracking                        | v2      |     |
 | progress    | member profile page report charts progress                                           | v2      |     |
 | progress    | point system and gamification                                                        | v2      |     |
-| contact     | member can contact trainer for session                                               | v1      |     |
-| contact     | member can initiate contact to trainer for session                                   | v1      |     |
-| contact     | trainer can not initiate contact to member for session                               | v1      |     |
-| calendar    | member can see calendar of upcoming events they have scheduled                       | v1      |     |
+| contact     | member can contact trainer for session                                               | v1      | x   |
+| contact     | member can initiate contact to trainer for session                                   | v1      | x   |
+| contact     | trainer can not initiate contact to member for session                               | v1      | x   |
+| calendar    | member can see calendar of upcoming events they have scheduled                       | v1      | x   |
 | calendar    | member can see calendar of all upcoming events that they do NOT have scheduled       | v1      |     |
-| reminder    | email reminder for training session that comes up (1 hr reminder)                    | v1      |     |
+| reminder    | email reminder for training session that comes up (1 hr reminder)                    | v1      | x   |
 | reminder    | email reminder for upcoming training session is customizeable by the trainer         | v1      |     |
 | reminder    | email reminder for training session for favorite trainer                             | v1      |     |
-| live-video  | trainers can broadcast live video to members who can join and watch                  | v1      |     |
-| live-video  | trainer can specify the cost to view live video                                      | v1      |     |
-| live-video  | trainers can schedule a video (one to many)                                          | v1      |     |
-| live-video  | trainers can schedule a video (one to group)                                         | v1      |     |
-| live-video  | trainers can fill in custom information about the video session                      | v1      |     |
-| live-video  | trainer can schedule member to one-on-one private training session                   | v1      |     |
+| live-video  | trainers can broadcast live video to members who can join and watch                  | v1      | x   |
+| live-video  | trainer can specify the cost to view live video                                      | v1      | x   |
+| live-video  | trainers can schedule a video (one to many)                                          | v1      | x   |
+| live-video  | trainers can schedule a video (one to group)                                         | v1      | x   |
+| live-video  | trainers can fill in custom information about the video session                      | v1      | x   |
+| live-video  | trainer can schedule member to one-on-one private training session                   | v1      | x   |
 | live-video  | members can see username and optional video of member                                | v1      |     |
 | live-video  | members can choose to hide or share their own video with trainer                     | v1      |     |
 | live-video  | members can choose to hide or share their own video with other members               | v1      |     |
-| live-video  | trainers can add live video broadcast to schedule                                    | v1      |     |
-| live-video  | max members on the trainer video is currently 6                                      | v1      |     |
-| live-video  | record live training video into archive under trainer account                        | v1      |     |
-| live-video  | delete/manage recorded live training video                                           | v1      |     |
+| live-video  | trainers can add live video broadcast to schedule                                    | v1      | x   |
+| live-video  | max members on the trainer video is currently 6                                      | v1      | x   |
+| live-video  | record live training video into archive under trainer account                        | v1      | x   |
+| live-video  | delete/manage recorded live training video                                           | v1      | x   |
 | video       | trainer can add existing YouTube video recording they have made using url            | v2      |     |
 | video       | trainer can add existing YouTube video via embedded button to RB account             | v1      |     |
 | video       | trainer can directly upload video via embedded button on page                        | v1      |     |
@@ -117,20 +119,20 @@ The following set of requirement describe the currently understood scope of the 
 | qr code     | scanned qr code takes user to video page                                             | v2      |     |
 | qr code     | scanned qr code requires logged in user                                              | v2      |     |
 | qr code     | allow site to scan qr code                                                           | v2      |     |
-| payment     | accept reoccurring payment                                                           | v1      |     |
-| payment     | require payment by user                                                              | v1      |     |
-| payment     | accept PayPal as payment method                                                      | v1      |     |
-| payment     | accept visa/mastercard as payment method                                             | v1      |     |
-| payment     | accept american express as payment method                                            | v1      |     |
+| payment     | accept reoccurring payment                                                           | v1      | x   |
+| payment     | require payment by user                                                              | v1      | x   |
+| payment     | accept PayPal as payment method                                                      | v1      | x   |
+| payment     | accept visa/mastercard as payment method                                             | v1      | x   |
+| payment     | accept american express as payment method                                            | v1      | x   |
 | payment     | accept bitcoin as payment method                                                     | v2      |     |
 | payment     | accept Amazon as payment method                                                      | v2      |     |
-| payment     | trainer can set monthly price for one-many videos and recorded videos                | v1      |     |
-| payment     | trainer can set individual price for one-many video                                  | v1      |     |
+| payment     | trainer can set monthly price for one-many videos and recorded videos                | v1      | x   |
+| payment     | trainer can set individual price for one-many video                                  | v1      | x   |
 | payment     | trainer can set individual price for recorded video                                  | v1      |     |
 | customize   | allow subdomains such as for Proctor Gamble                                          | v2      |     |
 | customize   | allow subdomains to have different graphics/branding                                 | v2      |     |
 | admin panel | allows admins to change any properties(calories, muscle group) for the videos upload | v1      |     |
-| admin panel | allows admins to remove video content any trainer has uploaded                       | v1      |     |
+| admin panel | allows admins to remove video content any trainer has uploaded                       | v1      | x   |
 | shop        | allows user to purchase physical items from a small shop (5-10 items)                | v2      |     |
 | shop        | allows user to attach referral code to purchases on site                             | v2      |     |
 | shop        | tracks referrals codes and updates user dashboard as referral codes are used         | v2      |     |
