@@ -57,8 +57,16 @@ The following set of requirement describe the currently understood scope of the 
 | reminder    | email reminder for upcoming training session is customizeable by the trainer         | v1  |     | d   |
 | reminder    | email reminder for training session for favorite trainer                             | v1  |     | d   |
 | live-video  | trainers can broadcast live video to members who can join and watch                  | v1  | x   | m   |
+| live-video  | trainers can broadcast live audio members who can join and watch                     | v1  | x   | m   |
 | live-video  | trainers can group stream live video to members who can join and watch               | v1  | x   | m   |
+| live-video  | trainers can group stream live audio to members                                      | v1  | x   | m   |
+| live-video  | members can group stream live audio to trainer                                       | v1  | x   | m   |
+| live-video  | members can mute live audio to trainer                                               | v2  |     | m   |
+| live-video  | members can mute live audio from other members                                       | v2  |     | m   |
 | live-video  | trainers can 1v1 stream live video to members who can join and watch                 | v1  | x   | m   |
+| live-video  | trainers can 1v1 stream live audio to member                                         | v1  | x   | m   |
+| live-video  | members can 1v1 stream live audio to trainer                                         | v1  | x   | m   |
+| live-video  | members can 1v1 mute live audio to trainer                                           | v2  |     | m   |
 | live-video  | trainer can specify the cost to view live video                                      | v1  | x   | d   |
 | calendar    | trainers can schedule a video (one to many)                                          | v1  | x   | d   |
 | calendar    | trainers can schedule a video (one to group)                                         | v1  | x   | d   |
