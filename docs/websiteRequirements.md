@@ -70,6 +70,8 @@ The following set of requirement describe the currently understood scope of the 
 | live-video  | trainer can specify the cost to view live video                                      | v1  | x   | d   |
 | calendar    | trainers can schedule a video (one to many)                                          | v1  | x   | d   |
 | calendar    | trainers can schedule a video (one to group)                                         | v1  | x   | d   |
+| calendar    | trainers can offer time slots their are available (1v1)                                         | v1  | x   | d   |
+| calendar    | members can pick time slots their trainer have pre approved (1v1)                                         | v1  | x   | d   |
 | live-video  | trainers can fill in custom information about the video session                      | v1  | x   | d   |
 | live-video  | trainer can schedule member to one-on-one private training session                   | v1  | x   | d   |
 | live-video  | members can see username and optional video of member                                | v1  |     | m   |
