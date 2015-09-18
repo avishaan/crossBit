@@ -56,6 +56,9 @@ The following set of requirement describe the currently understood scope of the 
 | reminder    | email reminder for training session that comes up (1 hr reminder)                    | v1  | x   | d   |
 | reminder    | email reminder for upcoming training session is customizeable by the trainer         | v1  |     | d   |
 | reminder    | email reminder for training session for favorite trainer                             | v1  |     | d   |
+| reminder    | sms reminder for training session that comes up (1 hr reminder)                      | v1  |     | d   |
+| reminder    | sms reminder for upcoming training session is customizeable by the trainer           | v1  |     | d   |
+| reminder    | sms reminder for training session for favorite trainer                               | v1  |     | d   |
 | live-video  | trainers can broadcast live video to members who can join and watch                  | v1  | x   | m   |
 | live-video  | trainers can broadcast live audio members who can join and watch                     | v1  | x   | m   |
 | live-video  | trainers can group stream live video to members who can join and watch               | v1  | x   | m   |
